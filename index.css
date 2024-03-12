@@ -1,0 +1,20 @@
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: aliceblue;
+   
+}
+
+.card{
+    display: flex;
+    margin-left: 20px;
+    border: 1px solid black;
+    width: 420px;
+    justify-items: center;
+}
+
+.card-header{
+    background-color: pink;
+}
