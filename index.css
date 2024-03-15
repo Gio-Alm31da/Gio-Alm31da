@@ -1,13 +1,85 @@
-.container-fluid{
+/* Cebeçalho */
+.container-fluid {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
     color: aliceblue;
-   
+
 }
 
-.card{
+.navbar-brand img{
+    display: flex;
+    transition: 0.3s;
+}
+
+@media (max-width: 574px){
+  .navbar-brand img{
+    height: 100px;
+}
+}
+
+.nav-link {
+    color: #f0f8ff;
+    margin: 2px;
+    text-align: center;
+}
+
+.nav-link {
+    color: aliceblue
+}
+
+.nav-link:hover {
+    color: hotpink;
+}
+
+.nav-link:active {
+    color: coral;
+}
+
+
+/*Corpo*/
+
+body,html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.principal {
+    flex: 1;
+}
+
+.h1 {
+    margin: 20px;
+}
+
+.h2 {
+    margin: 20px;
+}
+
+.p {
+    margin: 20px;
+}
+
+
+/*Rodapé*/
+
+.footer {
+    display: flex;
+    bottom: 0px;
+
+
+}
+
+
+/*Formulaário*/
+.card {
     display: flex;
     margin-left: 20px;
     border: 1px solid black;
@@ -15,6 +87,6 @@
     justify-items: center;
 }
 
-.card-header{
-    background-color: pink;
+.card-header {
+    background-color: pink;
 }
